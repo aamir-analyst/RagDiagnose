@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local database
+backend/chroma_db/
+
+# Uploaded documents
+backend/data/documents/*
+!backend/data/documents/.gitkeep
+
+# Generated evaluation results
+backend/evaluation_results/*.json
+
+# Frontend dependencies
+frontend/node_modules/
+frontend/dist/
+
+# Python testing
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+data/documents/*
